@@ -52,7 +52,7 @@
     text-align: center;
 }
 
-.app-img {
+.app-img, .about-img {
     background-color: var(--border-color);
     border-radius: 4px;
     padding: 10px;
@@ -61,7 +61,6 @@
 .app-name {
     font-family: var(--secondary-font);
     font-size: 26px;
-    font-weight: 900;
     margin-bottom: 10px;
 }
 
@@ -70,13 +69,45 @@
     margin-bottom: 10px;
 }
 
-.app-button a {
+.app-button a, .projects-button a {
     background: var(--secondary-color);
     color: white;
     font-family: var(--primary-font);
     font-size: 13px;
     padding: 15px 20px;
     text-decoration: none;
+}
+
+.about-me {
+    margin: 100px 50px;
+}
+
+.about-me-section {
+    background: var(--primary-color);
+    border-radius: 4px;
+    padding: 100px 30px;
+}
+
+.title {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.description {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.projects-button {
+    text-align: center;
+}
+
+.about-img {
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 576px) {
@@ -86,4 +117,11 @@
     .app-name {text-align: center}
     .app-description {text-align: center}
     .app-button {text-align: center;}
+    .about-me {margin: 50px 25px;}
+    .about-me-section {padding: 30px 20px}
+    .description {text-align: center;}
+}
+
+@media (max-width: 1000px) {
+    .about-me-section {margin-bottom: 15px;}
 }
