@@ -52,9 +52,10 @@
     text-align: center;
 }
 
-.app-img, .about-img {
+.app-img {
     background-color: var(--border-color);
     border-radius: 4px;
+    max-height: 340px;
     padding: 10px;
 }
 
@@ -106,7 +107,10 @@
 }
 
 .about-img {
+    background-color: var(--border-color);
+    border-radius: 4px;
     height: 100%;
+    padding: 10px;
     width: 100%;
 }
 
