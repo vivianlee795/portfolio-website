@@ -164,7 +164,7 @@
     .about-me-section {padding: 30px 20px}
     .description {text-align: center;}
     .contact-title {margin-top: 50px;}
-    .contact-section {padding: 25px;}
+    .contact-section {margin: 15px}
 }
 
 @media (max-width: 1000px) {
