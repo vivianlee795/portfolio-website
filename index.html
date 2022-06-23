@@ -29,15 +29,41 @@
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg sticky-top ps-5 pe-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Vivian Lee</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <div class="greeting">Hi, I'm</div>
       <div class="name">Vivian Lee</div>
       <div class="role">Front-end developer based in California</div>
       <div class="contact-button">
-        <a href="#" class="btn" title="Contact Vivian">Contact me</a>
+        <a href="/contact.html" class="btn" title="Contact Vivian"
+          >Contact me</a
+        >
       </div>
     </div>
-    <div class="intro mt-4">Learn more about my projects below!</div>
+    <div class="intro mt-4">Check out my projects!</div>
     <div class="container mb-5">
       <div class="row mt-5">
         <div class="col-sm">
@@ -53,7 +79,9 @@
             Check out a website I made about my favorite character from a TV
             series called Legacies.
           </div>
-          <div class="app-button"><a href="#" class="btn">Learn more</a></div>
+          <div class="app-button">
+            <a href="/work.html" class="btn">Learn more</a>
+          </div>
         </div>
       </div>
       <div class="row mt-5">
@@ -63,7 +91,14 @@
             Check out a weather application that I made that uses an API to
             provide the weather in your location.
           </div>
-          <div class="app-button"><a href="#" class="btn">Learn more</a></div>
+          <div class="app-button">
+            <a
+              href="https://funny-kitsune-30a9aa.netlify.app"
+              class="btn"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
         </div>
         <div class="col-sm">
           <img
