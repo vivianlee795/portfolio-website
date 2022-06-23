@@ -90,9 +90,11 @@
 }
 
 .title {
+    background-color: var(--primary-color);
     font-family: var(--secondary-font);
     font-size: 26px;
     margin-bottom: 15px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -114,6 +116,36 @@
     width: 100%;
 }
 
+.contact-title {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    background: var(--primary-color);
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 50px 0px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    padding: 10px;
+}
+
+.contact a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color:var(--secondary-color)
+}
+
 @media (max-width: 576px) {
     .greeting {font-size: 20px;}
     .name {font-size: 40px;}
@@ -124,6 +156,8 @@
     .about-me {margin: 50px 25px;}
     .about-me-section {padding: 30px 20px}
     .description {text-align: center;}
+    .contact-title {margin-top: 50px;}
+    .contact-section {padding: 25px;}
 }
 
 @media (max-width: 1000px) {
