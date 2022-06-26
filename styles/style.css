@@ -178,6 +178,7 @@ footer a:hover, footer .contact:hover {
     .about-me {margin: 50px 25px;}
     .about-me-section {padding: 30px 20px}
     .description {text-align: center;}
+    .title {margin: 5px}
     .contact-title {margin-top: 50px;}
     .contact-section {margin: 15px}
 }
