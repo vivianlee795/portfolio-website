@@ -9,6 +9,7 @@
 .navbar {
     background-color: var(--border-color);
     font-family: var(--primary-font);
+    padding: 10px;
 }
 
 .nav-link {
